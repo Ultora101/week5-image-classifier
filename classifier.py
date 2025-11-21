@@ -62,10 +62,10 @@ class ImageClassifier:
                 'confidence': confidence
             })
 
-            # Sort by confidence
-            results.sort(key=lambda x: x['confidence'], reverse=True)
+        # Sort by confidence
+        results.sort(key=lambda x: x['confidence'], reverse=True)
 
-            return results, original_image
+        return results, original_image
         
     def visualize_prediction(self, image_path):
         """Show image with prediction results"""
@@ -76,7 +76,7 @@ class ImageClassifier:
 
         # Show image
         ax1.imshow(img)
-        ax2.axis('off')
+        ax1.axis('off')
         ax1.set_title('Input Image')
 
         # Show predictions
@@ -123,7 +123,7 @@ class ImageClassifier:
 
             if key == ord('q'):
                 break
-            elif key ==ord('c'):
+            elif key == ord('c'):
                 # Save frame
                 cv2.imwrite('webcam_capture.jpg', frame)
 
@@ -134,13 +134,13 @@ class ImageClassifier:
                 for r in results[:3]:
                     print(f"{r['class']:15}{r['confidence']:6.2f}%")
             
-            cap.release()
-            cv2.destroyAllWindows()
+        cap.release()
+        cv2.destroyAllWindows()
 
     def explain_process(self):
         """Explain how computer vision works"""
         print("\n" + "="*60)
-        print("🤖 HOW COMPUTER VISION WORKS")
+        print(" HOW COMPUTER VISION WORKS")
         print("="*60)
 
         explanation = """
