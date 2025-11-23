@@ -10,7 +10,7 @@ This project implements image classification using computer vision concepts from
 
 **Classes:** Rock, Paper, Scissors
 **Training Images:** 50+ images per class
-**Accuracy:** [Your test accuracy]%
+**Accuracy:** ???%
 
 ## How to Run
 
@@ -59,18 +59,20 @@ The neural network learns to detect:
 
 ## Challenges I Encountered
 
-[Write 2-3 specific challenges and solutions]
+- I can't get some dependencies to work.
+- getting the training pictures was an issue in the beginning to transfer from my phone to my computer
+- still dont know if it workes
 
 ## Real-World Applications
 
-1. **Medical**: [Example]
-2. **Security**: [Example]
-3. **Retail**: [Example]
+1. **Medical**: this could be effective if you have it trained on symptems for quick diagnosis
+2. **Security**: this could help register people who are bared from entering an establishment
+3. **Retail**: this could help register how many items someone has to stop shoplifters
 
 ## Ethical Considerations
 
-[Write 2-3 thoughts on privacy and bias in computer vision]
+This could be an issue because if someone can take your data they could simulate you in a computer setting. This is scarry for many reasons because you could have your ideas stolen. This is also an issue because of possible security things with people trying to be malicious.
 
 ## What I Learned
 
-[3-4 sentences about computer vision concepts you now understand]
+I now know how a computer sees. This is cool because I can now do something in the real world to try and make my own ai. This could be a recognission software where I have a camera on my door that tells me what guest is at my door. I also learned that the more data you have the more sure your model can be.
